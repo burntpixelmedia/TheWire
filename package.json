@@ -1,0 +1,16 @@
+{
+  "name": "TheWire",
+  "version": "1.0.0",
+  "description": "The Wire, using Bootstrap 5. Created by Burnt Pixel Media",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
