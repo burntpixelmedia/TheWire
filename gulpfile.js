@@ -4,13 +4,12 @@ var path = require('path');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
-// TODO: finish adding the rest of the required gulp plugins
 
 var Paths = {
     HERE: './',
     DIST: 'dist/',
     CSS:  './assets/css/',
-    SCSS_TOOLKIT_SOURCES: './assets/scss/material-kit.scss', // TODO: replace material-kit.scss with the proper file
+    SCSS_TOOLKIT_SOURCES: './assets/scss/*', // TODO: replace * with the proper file
     SCSS: './assets/scss/*'
 };
 
