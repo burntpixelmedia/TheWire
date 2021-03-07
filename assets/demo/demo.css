@@ -17,4 +17,13 @@ li a {
 .demo-nav {
     margin: auto;
     max-width: 800px;
+    margin-bottom: 50px;
+}
+
+.call-to-action {
+    text-align: left; 
+}
+
+.call-to-action-img {
+    height: 500px;
 }
