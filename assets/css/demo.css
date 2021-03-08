@@ -19,6 +19,29 @@ li a {
     font: bold;
 }
 
+.blog-container { /* TODO: May need to adjust this */
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.column {
+    float: left;
+}
+
+.left-25, .right-25 {
+    width: 25%;
+}
+
+.middle-25 {
+    width: 50%;
+}
+
+
+
+
+
+
+
 .demo-nav {
     margin: auto;
     max-width: 800px;
