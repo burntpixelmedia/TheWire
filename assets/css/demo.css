@@ -2,6 +2,10 @@ h1,h2,h3,h4,h5,h6,p,a,li,div {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    float: left;
+}
+
 ul {
     list-style-type: none;
 }
@@ -32,15 +36,35 @@ li a {
     width: 25%;
 }
 
-.middle-25 {
+.left-100, .right-100 {
+    width: 100%;
+}
+
+.middle-50 {
     width: 50%;
 }
 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+#outer { 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    height: 120px; 
+    width: 800px; 
+} 
 
+.hr-blue {
+    color: dodgerblue;
+}
 
-
-
+.hr-green {
+    color: lightgreen
+}
 
 .demo-nav {
     margin: auto;
@@ -54,7 +78,10 @@ li a {
 
 .call-to-action-img {
     margin-top: 20px;
-    height: 500px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
 }
 
 .row-spacing {
@@ -69,4 +96,13 @@ li a {
 .publish-update {
     color:blue;
     font:bold;
+}
+
+
+/* Responsive layout */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
